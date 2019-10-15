@@ -1,0 +1,15 @@
+.bkg-img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: block;
+    padding-top: 62.5%; /* ratio of image padding-top = (img height / img width) * 100  */
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 15px; /* only because of bootstraps paddings, otherwise would be 0 */
+    bottom: 0;
+    right: 15px; /* only because of bootstraps paddings, otherwise would be 0 */
+}

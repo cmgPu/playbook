@@ -10,7 +10,7 @@ const BasicExample = () => (
     <div>
       <ul>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">General</Link></li>
+        <li><Link to="/general">General</Link></li>
       </ul>
 
       <hr />
